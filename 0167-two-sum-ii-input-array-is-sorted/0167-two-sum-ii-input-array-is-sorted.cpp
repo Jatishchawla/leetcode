@@ -6,7 +6,8 @@ public:
         int right=n-1;
 
         while(left<right){
-            int val =  nums[left]+nums[right] ; 
+            int val =  nums[left]+nums[right]; 
+
             if(val == target){
                 break;
             }
