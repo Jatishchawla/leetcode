@@ -6,6 +6,7 @@ public:
 
         vector<int> majors;
         majors.push_back(INT_MIN);
+        // cout<<majors[0];
         int curr = nums[0]; // current element
         int curr_count=0; // to store current's occurece count
         int n = nums.size()/3;
