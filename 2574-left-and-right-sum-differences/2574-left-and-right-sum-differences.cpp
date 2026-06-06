@@ -4,16 +4,16 @@ public:
         vector<int> answer;
 
         int lssf = 0;  // left sum so far
-        int rssf = 0;  // right sum so far , fill it first 
+        int rssf = accumulate(nums.begin(), nums.end(),0);  // right sum so far , fill it first 
 
         // right se minus kro 
         // left me add kro
 
 
-        for( int i : nums ){
-            rssf+=i; 
-        } 
-        cout<<rssf;
+        // for( int i : nums ){
+        //     rssf+=i; 
+        // } 
+
         for(int i : nums){
             rssf-=i; // rssf is total next sum - current element
 
