@@ -8,12 +8,6 @@ public:
 
         // right se minus kro 
         // left me add kro
-
-
-        // for( int i : nums ){
-        //     rssf+=i; 
-        // } 
-
         for(int i : nums){
             rssf-=i; // rssf is total next sum - current element
 
