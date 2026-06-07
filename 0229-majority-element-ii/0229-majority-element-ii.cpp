@@ -6,14 +6,12 @@ public:
 
         vector<int> majors;
         majors.push_back(INT_MIN);
-        // cout<<majors[0];
         int curr = nums[0]; // current element
         int curr_count=0; // to store current's occurece count
         int n = nums.size()/3;
         for(int i : nums){
             if(curr == i){
-                curr_count++; 
-                // cout<<curr<<" "<<curr_count<<endl;            
+                curr_count++;     
             }
             else{
                 curr=i;
